@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -109,3 +110,20 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+=======
+body {
+  margin: 0;
+
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(174, 123, 84, 0.08),
+      transparent 30%
+    ),
+    #f5eee8;
+
+  color: #2b1b14;
+
+  font-family: Arial, sans-serif;
+}
+>>>>>>> 6acab2b95b59e94a1a36265a3fe4452d1571b338

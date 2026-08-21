@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -182,3 +183,8 @@
     border-right-color: var(--border);
   }
 }
+=======
+.page {
+  padding: 40px;
+}
+>>>>>>> 6acab2b95b59e94a1a36265a3fe4452d1571b338
