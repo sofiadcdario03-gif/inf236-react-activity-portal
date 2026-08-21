@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Activity1 from "./Activity1";
 import GradeEvaluation from "./GradeEvaluation";
 import Activity3 from "./Activity3";
+import Activity4 from "./Activity4";
 import Activity5 from "./Activity5";
 
 function Home() {
@@ -97,6 +98,7 @@ function App() {
           <Route path="/activity1" element={<Activity1 />} />
           <Route path="/activity2" element={<GradeEvaluation />} />
           <Route path="/activity3" element={<Activity3 />} />
+          <Route path="/activity4" element={<Activity4 />} />
           <Route path="/activity5" element={<Activity5 />} />
         </Routes>
 

@@ -1,0 +1,535 @@
+/* ========================================
+   ACTIVITY CONTAINER
+======================================== */
+
+.activity-container {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 40px auto;
+  padding: 0 20px;
+
+  box-sizing: border-box;
+}
+
+
+/* ========================================
+   ACTIVITY HEADER
+======================================== */
+
+.activity-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+
+  margin-bottom: 28px;
+}
+
+
+/* Activity number */
+
+.activity-number {
+  width: 52px;
+  height: 52px;
+
+  flex-shrink: 0;
+
+  border-radius: 15px;
+
+  background: linear-gradient(
+    135deg,
+    #9a6744,
+    #6e452e
+  );
+
+  color: #fff4e8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  font-weight: 700;
+
+  box-shadow:
+    0 8px 18px rgba(76, 45, 27, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+
+/* Small activity label */
+
+.activity-label {
+  margin: 3px 0 5px;
+
+  color: #a8754e;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+
+/* Activity title */
+
+.activity-header h1 {
+  margin: 0;
+
+  color: #2b1b14;
+
+  font-family: Georgia, serif;
+
+  font-size: 30px;
+  line-height: 1.2;
+
+  letter-spacing: -0.3px;
+}
+
+
+/* Description */
+
+.activity-description {
+  margin-top: 9px;
+
+  color: #806f65;
+
+  font-size: 14px;
+  line-height: 1.6;
+
+  font-style: italic;
+}
+
+
+/* ========================================
+   BILL CALCULATOR CARD
+======================================== */
+
+.bill-calculator-card {
+  width: 100%;
+  max-width: 600px;
+
+  margin: 0 auto;
+
+  padding: 34px;
+
+  box-sizing: border-box;
+
+  background: linear-gradient(
+    145deg,
+    #fffdfb,
+    #f8f1eb
+  );
+
+  border: 1px solid #e3d5ca;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 20px 45px rgba(54, 31, 20, 0.12),
+    0 4px 12px rgba(54, 31, 20, 0.06);
+
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Decorative top line */
+
+.bill-calculator-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 10%;
+
+  width: 80%;
+  height: 2px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #bd8960,
+    transparent
+  );
+}
+
+
+/* Subtle decorative glow */
+
+.bill-calculator-card::after {
+  content: "";
+
+  position: absolute;
+
+  width: 160px;
+  height: 160px;
+
+  top: -80px;
+  right: -80px;
+
+  background: rgba(189, 137, 96, 0.08);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+/* ========================================
+   INPUT SECTION
+======================================== */
+
+.input-section h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+
+  color: #2b1b14;
+
+  font-family: Georgia, serif;
+
+  font-size: 25px;
+
+  letter-spacing: -0.2px;
+}
+
+
+/* ========================================
+   FORM
+======================================== */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+.form-group label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #3b2920;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 0.2px;
+}
+
+
+/* ========================================
+   INPUT
+======================================== */
+
+.form-group input {
+  width: 100%;
+
+  padding: 13px 14px;
+
+  box-sizing: border-box;
+
+  background-color: #fff;
+
+  color: #2b1b14;
+
+  border: 1px solid #d9c9bd;
+
+  border-radius: 9px;
+
+  font-size: 14px;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+
+/* Placeholder */
+
+.form-group input::placeholder {
+  color: #a6978e;
+}
+
+
+/* Input hover */
+
+.form-group input:hover {
+  border-color: #b99a84;
+}
+
+
+/* Input focus */
+
+.form-group input:focus {
+  outline: none;
+
+  background-color: #fffdfb;
+
+  border-color: #a8754e;
+
+  box-shadow:
+    0 0 0 3px rgba(168, 117, 78, 0.12),
+    0 4px 10px rgba(71, 42, 27, 0.05);
+}
+
+
+/* ========================================
+   BUTTON GROUP
+======================================== */
+
+.button-group {
+  display: flex;
+  gap: 12px;
+
+  margin-top: 24px;
+}
+
+
+/* ========================================
+   CALCULATE BUTTON
+======================================== */
+
+.calculate-button {
+  flex: 1;
+
+  padding: 13px 16px;
+
+  border: none;
+  border-radius: 9px;
+
+  background: linear-gradient(
+    135deg,
+    #8d5c3d,
+    #6b422b
+  );
+
+  color: #fff8f2;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  letter-spacing: 0.3px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 7px 16px rgba(93, 55, 34, 0.22);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+
+.calculate-button:hover {
+  background: linear-gradient(
+    135deg,
+    #a06d49,
+    #774b31
+  );
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 20px rgba(93, 55, 34, 0.27);
+}
+
+
+.calculate-button:active {
+  transform: translateY(0);
+
+  box-shadow:
+    0 4px 10px rgba(93, 55, 34, 0.2);
+}
+
+
+/* ========================================
+   CLEAR BUTTON
+======================================== */
+
+.clear-button {
+  flex: 1;
+
+  padding: 13px 16px;
+
+  border: 1px solid #d5c0b1;
+  border-radius: 9px;
+
+  background-color: #f4ebe4;
+
+  color: #69452f;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+.clear-button:hover {
+  background-color: #eadbd0;
+
+  border-color: #c7a48c;
+
+  color: #4d2f20;
+
+  transform: translateY(-1px);
+}
+
+
+/* ========================================
+   RESULT PANEL
+======================================== */
+
+.result-panel {
+  margin-top: 28px;
+
+  padding: 20px;
+
+  background-color: #f9f4f0;
+
+  border: 1px solid #e3d5ca;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 4px 12px rgba(54, 31, 20, 0.06);
+}
+
+
+.result-panel h3 {
+  margin: 0 0 16px;
+
+  color: #2b1b14;
+
+  font-family: Georgia, serif;
+
+  font-size: 20px;
+
+  letter-spacing: -0.1px;
+}
+
+
+/* ========================================
+   RESULT ITEMS
+======================================== */
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 0;
+
+  border-bottom: 1px solid #e8d9cf;
+}
+
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+
+.result-label {
+  color: #6b5a4f;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.result-value {
+  color: #2b1b14;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+/* Total styling */
+
+.result-item.total {
+  margin-top: 8px;
+  padding-top: 12px;
+
+  border-top: 2px solid #d4c4b6;
+  border-bottom: none;
+}
+
+
+.result-item.total .result-value {
+  color: #8d5c3d;
+
+  font-size: 18px;
+}
+
+
+/* Status styling */
+
+.result-item.status {
+  margin-top: 12px;
+  padding-top: 12px;
+
+  border-top: 1px solid #e8d9cf;
+  border-bottom: none;
+}
+
+
+.result-item.status .result-value.high {
+  color: #a84f3c;
+}
+
+
+.result-item.status .result-value.normal {
+  color: #5a7a3c;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 600px) {
+
+  .activity-container {
+    margin: 25px auto;
+    padding: 0 15px;
+  }
+
+  .activity-header {
+    gap: 12px;
+  }
+
+  .activity-number {
+    width: 46px;
+    height: 46px;
+
+    border-radius: 13px;
+
+    font-size: 19px;
+  }
+
+  .activity-header h1 {
+    font-size: 25px;
+  }
+
+  .bill-calculator-card {
+    padding: 25px 20px;
+
+    border-radius: 15px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+}
