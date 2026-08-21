@@ -5,65 +5,75 @@ function Navbar() {
   return (
     <nav className="navbar">
 
-      <div className="navbar-logo">
-        React Activity Portal
-      </div>
+      <div className="navbar-inner">
 
-      <div className="navbar-links">
+        <NavLink to="/" className="navbar-brand">
 
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive ? "nav-link active" : "nav-link"
-          }
-        >
-          Home
+          <div className="navbar-logo">
+            R
+          </div>
+
+          <span>React Activity Portal</span>
+
         </NavLink>
 
-        <NavLink
-          to="/activity1"
-          className={({ isActive }) =>
-            isActive ? "nav-link active" : "nav-link"
-          }
-        >
-          Activity 1
-        </NavLink>
+        <div className="navbar-links">
 
-        <NavLink
-          to="/activity2"
-          className={({ isActive }) =>
-            isActive ? "nav-link active" : "nav-link"
-          }
-        >
-          Activity 2
-        </NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Home
+          </NavLink>
 
-        <NavLink
-          to="/activity3"
-          className={({ isActive }) =>
-            isActive ? "nav-link active" : "nav-link"
-          }
-        >
-          Activity 3
-        </NavLink>
+          <NavLink
+            to="/activity1"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Activity 1
+          </NavLink>
 
-        <NavLink
-          to="/activity4"
-          className={({ isActive }) =>
-            isActive ? "nav-link active" : "nav-link"
-          }
-        >
-          Activity 4
-        </NavLink>
+          <NavLink
+            to="/activity2"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Activity 2
+          </NavLink>
 
-        <NavLink
-          to="/activity5"
-          className={({ isActive }) =>
-            isActive ? "nav-link active" : "nav-link"
-          }
-        >
-          Activity 5
-        </NavLink>
+          <NavLink
+            to="/activity3"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Activity 3
+          </NavLink>
+
+          <NavLink
+            to="/activity4"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Activity 4
+          </NavLink>
+
+          <NavLink
+            to="/activity5"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Activity 5
+          </NavLink>
+
+        </div>
 
       </div>
 
