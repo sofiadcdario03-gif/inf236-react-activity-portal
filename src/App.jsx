@@ -5,7 +5,11 @@ import Navbar from "./Navbar";
 import Activity1 from "./Activity1";
 import GradeEvaluation from "./GradeEvaluation";
 import Activity3 from "./Activity3";
+<<<<<<< HEAD
 import AttendanceChecker from "./AttendanceChecker";
+=======
+import Activity5 from "./Activity5";
+>>>>>>> 19c7f777dfe6f9abf9ae0809ab881a67b30a8ef9
 
 function Home() {
   const activities = [
@@ -94,6 +98,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+<<<<<<< HEAD
 
           <Route
             path="/activity1"
@@ -113,6 +118,11 @@ function App() {
           {/* Activity 4 and 5 routes can be added
               once you send their components. */}
 
+=======
+          <Route path="/activity1" element={<Activity1 />} />
+          <Route path="/activity3" element={<Activity3 />} />
+          <Route path="/activity5" element={<Activity5 />} />
+>>>>>>> 19c7f777dfe6f9abf9ae0809ab881a67b30a8ef9
         </Routes>
 
       </div>
