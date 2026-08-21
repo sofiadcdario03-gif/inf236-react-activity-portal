@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import Activity1 from "./Activity1";
+import GradeEvaluation from "./GradeEvaluation";
 import Activity3 from "./Activity3";
 
 function Home() {
@@ -33,6 +34,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/activity1" element={<Activity1 />} />
+          <Route path="/activity2" element={<GradeEvaluation />} />
           <Route path="/activity3" element={<Activity3 />} />
         </Routes>
 
