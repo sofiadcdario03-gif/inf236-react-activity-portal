@@ -38,7 +38,7 @@ function Activity1() {
           <p className="activity-label">ACTIVITY 1</p>
           <h1>Login Authentication</h1>
           <p className="activity-description">
-            Please Enter a valid Username and Password.
+            Sample Credentials: Username: admin | Password: 1234
           </p>
         </div>
       </div>
