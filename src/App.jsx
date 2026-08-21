@@ -95,6 +95,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/activity1" element={<Activity1 />} />
+          <Route path="/activity2" element={<GradeEvaluation />} />
           <Route path="/activity3" element={<Activity3 />} />
           <Route path="/activity5" element={<Activity5 />} />
         </Routes>
