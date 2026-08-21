@@ -38,7 +38,7 @@ function Activity1() {
           <p className="activity-label">ACTIVITY 1</p>
           <h1>Login Authentication</h1>
           <p className="activity-description">
-            Username + password form with validation and a logged-in state.
+            Please Enter a valid Username and Password.
           </p>
         </div>
       </div>
