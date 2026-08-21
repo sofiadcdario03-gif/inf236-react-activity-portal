@@ -57,11 +57,11 @@ function Navbar() {
         </NavLink>
 
         <NavLink
-          to="/activity5"
+          to="/activity5"   
           className={({ isActive }) =>
             isActive ? "nav-link active" : "nav-link"
           }
-        >
+        >   
           Activity 5
         </NavLink>
 
