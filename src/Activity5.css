@@ -1,0 +1,237 @@
+.activity5-page {
+  min-height: 100vh;
+  background: #f8f1eb;
+  padding: 40px 50px;
+  font-family: Georgia, serif;
+}
+
+
+/* Header */
+
+.activity5-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+
+.activity5-number {
+  background: #8b5a3c;
+  color: white;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+}
+
+
+.activity5-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #8b5a3c;
+  margin: 0;
+}
+
+
+.activity5-header h1 {
+  margin: 3px 0;
+  font-size: 30px;
+  color: #17100d;
+}
+
+
+.activity5-description {
+  font-size: 14px;
+  font-style: italic;
+  color: #795548;
+}
+
+
+/* Card */
+
+.attendance-card {
+
+  width: 350px;
+  margin: auto;
+
+  background: #fffaf7;
+
+  border-radius: 15px;
+
+  padding: 25px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+
+  position: relative;
+
+}
+
+
+.attendance-card::after {
+
+  content: "";
+
+  position: absolute;
+
+  right: 0;
+  top: 0;
+
+  width: 80px;
+  height: 80px;
+
+  background: #f0e3da;
+
+  border-radius: 0 15px 0 80px;
+
+}
+
+
+
+.attendance-card h2 {
+
+  font-size: 24px;
+
+  margin-bottom: 15px;
+
+  color: #1d120e;
+
+}
+
+
+
+label {
+
+  display: block;
+
+  margin-top: 15px;
+
+  font-size: 14px;
+
+  color: #4e342e;
+
+}
+
+
+
+input {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-top: 6px;
+
+  border-radius: 6px;
+
+  border: 1px solid #d7b8a5;
+
+  background: white;
+
+  box-sizing: border-box;
+
+}
+
+
+
+input:focus {
+
+  outline: none;
+
+  border-color: #8b5a3c;
+
+}
+
+
+
+/* Buttons */
+
+.activity5-buttons {
+
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 20px;
+
+}
+
+
+
+.check-btn {
+
+  flex: 1;
+
+  background: #805035;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+
+
+.reset-btn {
+
+  flex: 1;
+
+  background: transparent;
+
+  border: 1px solid #d7b8a5;
+
+  color: #5d4037;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+
+
+.check-btn:hover,
+.reset-btn:hover {
+
+  opacity: 0.85;
+
+}
+
+
+
+/* Result */
+
+.attendance-result {
+
+  margin-top: 20px;
+
+  background: #f5ebe3;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+}
+
+
+
+.attendance-result h3 {
+
+  margin-top: 0;
+
+  color: #5d4037;
+
+}
