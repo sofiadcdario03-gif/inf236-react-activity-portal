@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Activity1 from "./Activity1";
 import GradeEvaluation from "./GradeEvaluation";
 import Activity3 from "./Activity3";
+import AttendanceChecker from "./AttendanceChecker";
 
 function Home() {
   return (
